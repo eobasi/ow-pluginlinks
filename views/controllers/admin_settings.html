@@ -1,0 +1,32 @@
+{style}
+	.alphabeth {
+		background: #000;
+		color: white;
+		padding: 5px;
+		width: 30px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.ow_tip {
+		width: 200px;
+	}
+{/style}
+<div class='ow_automargin' style='width:90%;'>
+	{block_decorator name="box" langLabel="pluginlinks+pluginlinks" addClass="clearfix ow_smallmargin" }
+		{if $plugins }
+			{foreach from=$alphabeth item="alpha"}
+				<ul class='ow_regular ow_left' style='width:23%;min-height:200px;overflow-y:auto;margin:5px;'>
+					<h2 class='alphabeth' style='background:#{$alpha.color};'>{$alpha.caps}</h2>
+					{foreach from=$plugins item="item"}
+						{if $item.caps == $alpha.caps || $item.caps == $alpha.lower}
+							<li><a href='{$item.url}' title='{$item.desc}' >{$item.title}</a></li>
+						{/if}
+					{/foreach}
+				</ul>
+			{/foreach}
+		{else}
+			{text key='base+empty_list'}
+		{/if}
+	{/block_decorator}
+	<iframe class="ow_full" src="{$url}" style="border: 0pt none ; width: 100%; height: 380px;" frameborder="0"></iframe>
+</div>

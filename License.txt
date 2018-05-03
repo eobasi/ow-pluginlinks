@@ -1,0 +1,38 @@
+
+ * This software is intended for use with Oxwall Free Community Software http://www.oxwall.org/ and is a proprietary licensed product. 
+ * For more information see License.txt in the plugin folder.
+
+ * ---
+ * Copyright (c) 2016, Ebenezer Obasi
+ * All rights reserved.
+ * info@eobai.com.
+
+ * Redistribution and use in source and binary forms, with or without modification, are not permitted provided.
+
+ * This plugin should be bought from the developer. For details contact info@eobasi.com.
+
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+	TL;DR: Creates a menu block in the admin area that keeps all the active plugin setting links in one place.
+
+	Long Description:
+
+	By default, you can only access each of your Oxwall/Skadate plugin setting page by visiting the 'Installed Plugins' admin area of your website. This means you have to navigate back and forth each time you want to setup a new plugin.
+
+	This plugins puts an end to that hassle. On activation, 'Admin Plugin Settings Menu' plugin creates a menu block just below your admin settings menu block. You can access all active plugin setting page from the menu block.
+
+	This makes it a lot easier to navigate from one plugin setting to another.
+
+	The plugin also creates an attractive page that contains all your active plugin setting links, arranged according to their first letters alphabetically.
+
+	Key Features:
+
+	- Auto add new plugins to the menu
+	- Removes menu automatically on plugin uninstall.
+	- Intuitive design

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>Admin Plugin Settings Menu</name>
+    <key>pluginlinks</key>
+    <description>Creates a menu block in the admin area that keeps all the active plugin setting links in one place.</description>
+    <author>Ebenezer Obasi</author>
+    <authorEmail>info@eobasi.com</authorEmail>
+    <authorUrl>http://www.eobasi.com</authorUrl>
+    <developerKey>d7be028d4d1053345e0fd37184e5dadb</developerKey>
+    <build>2</build>
+    <copyright>©2016 All rights reserved.</copyright>
+    <license>OSCL</license>
+    <licenseUrl>http://www.oxwall.org/store/oscl</licenseUrl>
+</plugin>
